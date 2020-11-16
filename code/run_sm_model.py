@@ -3,13 +3,13 @@ matplotlib.use('Agg')
 
 import os
 import json
+from optparse import OptionParser
 from collections import defaultdict, Counter
 
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
-from optparse import OptionParser
 
 from common import create_poly
 
