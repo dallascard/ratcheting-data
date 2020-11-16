@@ -10,7 +10,7 @@ import numpy as np
 def main():
     usage = "%prog"
     parser = OptionParser(usage=usage)
-    parser.add_option('--infile', type=str, default='/u/scr/dcard/projects/scientific-productivity/output/matched_data.csv',
+    parser.add_option('--infile', type=str, default='../data/matched_data.csv',
                       help='Input file: default=%default')
     parser.add_option('--base-year', type=int, default=2009,
                       help='Year for measuring effect sizes: default=%default')
